@@ -72,13 +72,8 @@ export const ShareAndAbout = ({ readonly }: Props) => {
 
         <BottomButton onClick={() => window.location.reload()}>REPLAY</BottomButton>
 
-        <BottomButton onClick={() => setShareIsOpen(true)}>SHARE</BottomButton>
-
       </Wrapper>
 
-      <PrivacyWrapper>
- 
-      </PrivacyWrapper>
     </>
   );
 };
