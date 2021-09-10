@@ -353,6 +353,8 @@ const JournalScreen = ({ readonly = false, sampler }: Props) => {
 
       <Tree />
 
+            <ShareAndAbout readonly={readonly} />
+
       {/* <ProductHuntBadge /> */}
     </>
   );
