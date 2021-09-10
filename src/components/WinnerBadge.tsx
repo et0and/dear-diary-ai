@@ -53,8 +53,8 @@ const BottomBar = styled.div({
 export const WinnerBadge = () => {
   return (
     <StyledBadge href="https://devpost.com/software/dear-diary-ezrmgt" target="_blank">
-      <TopBar>WINNER</TopBar>
-      <BottomBar>magenta / gray area hackathon</BottomBar>
+      <TopBar></TopBar>
+      <BottomBar></BottomBar>
     </StyledBadge>
   );
 };
