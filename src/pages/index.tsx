@@ -39,7 +39,7 @@ export default function Home() {
   const [ambienceIsReady, setAmbienceIsReady] = useState(false);
 
   const startMessages = [
-    `So tell me a story`,
+    `Here we go`,
     `Journal. It will help.`,
     `Take a moment`,
     `Take a breath`,
@@ -153,7 +153,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Dear Diary AI</title>
+        <title>Musical Journal</title>
       </Head>
       <div
         ref={loadingCoverRef}
@@ -182,7 +182,6 @@ export default function Home() {
           {ready ? 'Begin' : 'loading'}
         </StartButton>
 
-        <WinnerBadge />
       </div>
 
       {ready && <JournalScreen sampler={sampler.current!} />}
