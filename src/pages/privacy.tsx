@@ -6,7 +6,6 @@ import { generateEntry } from '../firebase/createEntry';
 import { useRouter } from 'next/router';
 import * as Tone from 'tone';
 import styled from '@emotion/styled';
-import { WinnerBadge } from '../components/WinnerBadge';
 
 const StartButton = styled.button({
   marginTop: '30px',
