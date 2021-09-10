@@ -74,14 +74,11 @@ export const ShareAndAbout = ({ readonly }: Props) => {
 
         <BottomButton onClick={() => setShareIsOpen(true)}>SHARE</BottomButton>
 
-        <BottomButton onClick={() => setAboutIsOpen(true)}>about</BottomButton>
+        <BottomButton onClick={() => setAboutIsOpen(true)}></BottomButton>
       </Wrapper>
 
       <PrivacyWrapper>
-        Entries are public to anyone with this URL.{' '}
-        <a href="/privacy" target="_blank">
-          Privacy info
-        </a>
+ 
       </PrivacyWrapper>
     </>
   );
