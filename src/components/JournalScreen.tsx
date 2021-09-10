@@ -6,8 +6,6 @@ import debounce from 'lodash.debounce';
 import * as Tone from 'tone';
 import throttle from 'lodash.debounce';
 import { persistKeys, dbSelectionEvent, dbKeyPress } from '../firebase/persistKeys';
-import { ShareAndAbout } from './ShareAndAbout';
-import { ProductHuntBadge } from './ProductHuntBadge';
 import styled from '@emotion/styled';
 
 const allNotes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
