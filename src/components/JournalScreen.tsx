@@ -7,6 +7,7 @@ import * as Tone from 'tone';
 import throttle from 'lodash.debounce';
 import { persistKeys, dbSelectionEvent, dbKeyPress } from '../firebase/persistKeys';
 import styled from '@emotion/styled';
+import { ShareAndAbout } from './ShareAndAbout';
 
 const allNotes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const scale = ['C', 'D', 'E', 'F', 'G', 'A', 'B'];
