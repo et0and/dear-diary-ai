@@ -74,7 +74,6 @@ export const ShareAndAbout = ({ readonly }: Props) => {
 
         <BottomButton onClick={() => setShareIsOpen(true)}>SHARE</BottomButton>
 
-        <BottomButton onClick={() => setAboutIsOpen(true)}></BottomButton>
       </Wrapper>
 
       <PrivacyWrapper>
