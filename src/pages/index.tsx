@@ -39,13 +39,10 @@ export default function Home() {
 
   const startMessages = [
     `Here we go`,
-    `Journal. It will help.`,
-    `Take a moment`,
-    `Take a breath`,
-    `Time will keep flowing`,
-    `When can I get my hair cut?`,
-    `Let's adopt a dog`,
-    `Let it all out`,
+    `Get ready to turn words into sounds.`,
+    `Journal. Or not.`,
+    `It is up to you.`,
+    `But give it a go.`,
     `Begin`,
   ];
 
